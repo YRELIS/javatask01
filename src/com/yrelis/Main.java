@@ -9,11 +9,11 @@ public class Main {
         try
         {
             int used = Monitor.Used();
-            int pamyt_polnay = Monitor.Total();
+            int total = Monitor.Total();
             int available = Monitor.Available();
             Monitor.getProcesses();
             System.out.println("------------------------- -------- ---------------- ----------- ------------");
-            System.out.println(pamyt_polnay + " mb полной памяти.");
+            System.out.println(total + " mb полной памяти.");
             System.out.println(used + " mb используемой.");
             System.out.println(available + " mb доступно.");
         }
